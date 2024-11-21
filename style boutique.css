@@ -1,0 +1,94 @@
+/* Appliquer un fond avec l'image sur toute la page */
+body {
+    background-image: url('https://e0.pxfuel.com/wallpapers/46/858/desktop-wallpaper-hunter-x-hunter-gon-killua-screenshot-fond-d-ecran-dessin-fond-d-ecran-ordinateur-fond-ecran-bleu-hunter-x-hunter-computer.jpg');
+    background-size: cover; /* L'image couvre toute la fenêtre */
+    background-position: center center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Choix d'une police générique pour la page */
+    color: #d4a200; /* Texte blanc pour contraster avec l'image de fond */
+    line-height: 1.6; /* Espacement entre les lignes de texte */
+}
+
+/* Style du header */
+header {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 2.5rem;
+    color: #d4a200;
+}
+
+/* Style du contenu principal */
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent pour améliorer la lisibilité */
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/* Style des sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style des produits */
+.produits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.produit {
+    background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour les produits */
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.produit img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.produit h3 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+
+.produit p {
+    font-size: 1rem;
+}
+
+/* Bouton "Ajouter au panier" */
+.btn-acheter {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Jaune */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.btn-acheter:hover {
+    background-color: #e6b800; /* Jaune foncé au survol */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent */
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Ajouter un padding général à la page */
+* {
+    box-sizing: border-box; /* Pour garantir que le padding et les marges n'affectent pas la taille de l'élément */
+}

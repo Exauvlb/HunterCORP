@@ -1,0 +1,91 @@
+/* Appliquer un fond avec l'image */
+body {
+    background-image: url('https://images3.alphacoders.com/998/998657.png');
+    background-size: cover; /* L'image couvre toute la fenêtre */
+    background-position: center center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Choix d'une police générique pour la page */
+    color: white; /* Texte blanc pour contraster avec l'image de fond */
+    line-height: 1.6; /* Espacement entre les lignes de texte */
+}
+
+/* Style du header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 2.5rem;
+    color: #d4a200; /* Jaune foncé pour le titre */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre pour améliorer la lisibilité du texte */
+}
+
+/* Style du contenu principal */
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Ajoute un fond semi-transparent pour améliorer la lisibilité */
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/* Style des sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Liens */
+a {
+    color: #ffcc00; /* Jaune pour les liens */
+    text-decoration: none;
+    font-weight: bold; /* Gras pour les liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligner les liens lorsqu'ils sont survolés */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent */
+    color: #fff;
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Ombre pour améliorer la lisibilité */
+}
+
+/* Ajouter un padding général à la page */
+* {
+    box-sizing: border-box; /* Pour garantir que le padding et les marges n'affectent pas la taille de l'élément */
+}
+
+/* Média Queries pour une meilleure réactivité */
+@media (max-width: 768px) {
+    header {
+        font-size: 2rem; /* Taille de police plus petite pour les petits écrans */
+        padding: 30px 10px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    main {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}

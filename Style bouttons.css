@@ -1,0 +1,52 @@
+/* Section de consentement */
+#consent {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour la section */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Titre de la section */
+#consent h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Texte explicatif */
+#consent p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Style général des boutons */
+.btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Bouton "J'accepte" */
+.consent-btn {
+    background-color: #4CAF50; /* Vert pour accepter */
+    color: white;
+}
+
+.consent-btn:hover {
+    background-color: #45a049; /* Changer de couleur au survol */
+}
+
+/* Bouton "Je refuse" */
+.decline-btn {
+    background-color: #f44336; /* Rouge pour refuser */
+    color: white;
+}
+
+.decline-btn:hover {
+    background-color: #e53935; /* Changer de couleur au survol */
+}

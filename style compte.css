@@ -1,0 +1,78 @@
+/* Appliquer un fond avec l'image */
+body {
+    background-image: url('https://images3.alphacoders.com/998/998657.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #d4a200;
+    line-height: 1.6;
+}
+
+/* Style du header */
+header {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 2.5rem;
+    color:#d4a200;
+}
+
+/* Style du contenu principal */
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 30px;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+/* Formulaire de création de compte */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 1.2rem;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+/* Bouton de soumission */
+button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #e6b800; /* Jaune foncé au survol */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Ajouter un padding général à la page */
+* {
+    box-sizing: border-box;
+}
